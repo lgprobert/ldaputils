@@ -1,0 +1,7 @@
+
+dn: cn=DEPARTMENT,ou=Group,BASE
+changetype: ACTION
+objectClass: top
+objectClass: posixGroup
+cn: DEPARTMENT
+gidNumber: GRP_NUM

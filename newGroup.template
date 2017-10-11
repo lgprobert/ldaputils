@@ -1,0 +1,4 @@
+dn: cn=DEPARTMENT,ou=Group,BASE
+objectClass: top
+objectClass: posixGroup
+gidNumber: GRP_NUM

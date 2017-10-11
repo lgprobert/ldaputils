@@ -1,0 +1,5 @@
+
+dn: cn=DEPARTMENT,BASE_DOMAIN
+changetype: modify
+ACTION: memberUid
+memberUid: USER

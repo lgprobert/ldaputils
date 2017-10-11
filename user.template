@@ -1,0 +1,27 @@
+dn: cn=USER,ou=Group,BASE
+changetype: add
+objectClass: posixGroup
+cn: USER
+gidNumber: UID_NUM
+
+dn: uid=USER,ou=People,BASE
+changetype: add
+uid: USER
+cn: FULLNAME
+sn: USER
+mail: EMAIL
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: top
+objectClass: shadowAccount
+userPassword: PASSWORD
+shadowLastChange: 17228
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7
+loginShell: SHELL
+uidNumber: UID_NUM
+gidNumber: UID_NUM
+homeDirectory: /home/USER

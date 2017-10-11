@@ -1,0 +1,5 @@
+dn: cn=USER,ou=Group,BASE
+changetype: delete
+
+dn: uid=USER,ou=People,BASE
+changetype: delete
